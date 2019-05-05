@@ -1,0 +1,4 @@
+pid=p0001,pName=华为,price=8000.0,produceArea=中国,uId=u0001,clickDate=20190301040123,clickArea=华中
+pid=p0002,pName=小米,price=3000.0,produceArea=中国,uId=u0002,clickDate=20190302040124,clickArea=华北
+pid=p0003,pName=苹果,price=1500.0,produceArea=美国,uId=u0003,clickDate=20190303040124,clickArea=华南
+pid=p0004,pName=三星,price=10000.0,produceArea=韩国,uId=u0004,clickDate=20190304040124,clickArea=华南
