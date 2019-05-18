@@ -11,8 +11,11 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 /**
- * 欢迎来到若泽数据(www.ruozedata.com)
- * 讲师：若泽(PK哥)  QQ：1990218038
+ *
+ * ETL
+ * 使用MR进行离线的每日数据清洗工作
+ *
+ *
  */
 public class LogETLDriver {
 
@@ -25,7 +28,7 @@ public class LogETLDriver {
         String input = args[0];
         String output = args[1];  //output/d=20180717
 
-//        System.setProperty("hadoop.home.dir", "D:\\appanzhuang\\cdh\\hadoop-2.6.0-cdh5.7.0");
+        System.setProperty("hadoop.home.dir", "D:\\appanzhuang\\cdh\\hadoop-2.6.0-cdh5.7.0");
 
 
         Configuration configuration = new Configuration();
